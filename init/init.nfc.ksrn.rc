@@ -1,0 +1,10 @@
+on post-fs && property:ro.boot.product.hardware.sku=ksrn
+    setprop persist.vendor.nfc.config_file_name /vendor/etc/st21nfc_conf.txt
+    enable st_nfc_hal
+
+service st_nfc_hal /vendor/bin/hw/android.hardware.nfc-service.st
+    class hal
+    user nfc
+    group nfc
+    disabled
+    override

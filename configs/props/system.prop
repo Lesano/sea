@@ -1,0 +1,39 @@
+# Brand
+Build.BRAND=MTK
+
+# Dalvik
+dalvik.vm.dex2oat64.enabled=true
+
+# IORap
+ro.iorapd.enable=false
+
+# IMS
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
+
+# Logging
+log.tag=I
+
+# SurfaceFlinger
+ro.sf.blurs_are_expensive=1
+
+# SkiaGL Threaded
+debug.renderengine.backend=skiaglthreaded
+debug.hwui.renderer=skiagl
+renderthread.skia.reduceopstasksplitting=true
+
+# RIL Powersaving
+persist.radio.add_power_save=1
+pm.sleep_mode=1
+ro.ril.disable.power.collapse=0
+ro.ril.fast.dormancy.rule=1
+ro.ril.fast.dormancy.timeout=3
+ro.mot.eri.losalert.delay=1000
+
+# Crok's RAM Managment Fix
+ro.sys.fw.bg_apps_limit=128
+ro.vendor.qti.sys.fw.bg_apps_limit=128
+ro.vendor.qti.sys.fw.bservice_enable=true
+ro.vendor.qti.sys.fw.bservice_age=10000
+ro.vendor.qti.sys.fw.bservice_limit=128

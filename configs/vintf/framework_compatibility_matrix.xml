@@ -1,0 +1,20 @@
+<compatibility-matrix version="9.0" type="framework">
+    <hal format="hidl" optional="true">
+        <name>vendor.microtrust.hardware.thh</name>
+        <transport>hwbinder</transport>
+        <version>2.0</version>
+        <interface>
+            <name>IThhDevice</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.microtrust.hardware.soter</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>ISoter</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+</compatibility-matrix>

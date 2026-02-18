@@ -1,0 +1,259 @@
+# Audio
+aaudio.mmap_policy=2
+aaudio.mmap_exclusive_policy=2
+vendor.audio.powerhal.power.dl=true
+ro.vendor.audio.vocal.support=true
+ro.vendor.audio.us.proximity=true
+ro.vendor.audio.us.proximity_waitfornegative_feature=true
+ro.audio.monitorRotation=true
+vendor.audio.spkcal.copy.inhal=true
+vendor.audiohal.telephonytx.type=2
+ro.config.media_vol_default=5
+ro.config.media_vol_steps=15
+ro.config.vc_call_vol_default=4
+ro.config.vc_call_vol_steps=12
+
+# Bluetooth
+bluetooth.hardware.power.operating_voltage_mv=3300
+bluetooth.device.class_of_device=90,2,12
+bluetooth.profile.a2dp.source.enabled=true
+bluetooth.profile.avrcp.target.enabled=true
+bluetooth.profile.bas.client.enabled=true
+bluetooth.profile.gatt.enabled=true
+bluetooth.profile.hfp.ag.enabled=true
+bluetooth.profile.hid.device.enabled=true
+bluetooth.profile.hid.host.enabled=true
+bluetooth.profile.map.server.enabled=true
+bluetooth.profile.opp.enabled=true
+bluetooth.profile.pan.nap.enabled=true
+bluetooth.profile.pan.panu.enabled=true
+bluetooth.profile.pbap.server.enabled=true
+bluetooth.profile.sap.server.enabled=true
+vendor.bluetooth.ldac.abr=true
+ro.vendor.bluetooth.wipower=false
+
+# Camera
+camera.disable_zsl_mode=1
+vendor.camera.aux.packageexcludelist=org.telegram.messenger,org.thunderdog.challegram
+vendor.camera.mdp.dre.enable=1
+vendor.camera.mdp.cz.enable=1
+vendor.mtk.camera.app.fd.video=1
+ro.vendor.camera.directfdyuv.support=1
+ro.vendor.camera3.zsl.default=270
+ro.vendor.mtk_camera_app_version=3
+ro.vendor.camera.isp.support.colorspace=0
+persist.vendor.camera3.pipeline.bufnum.min.high_ram.imgo=7
+persist.vendor.camera3.pipeline.bufnum.min.low_ram.imgo=6
+persist.vendor.camera3.pipeline.bufnum.base.imgo=4
+persist.vendor.camera3.pipeline.bufnum.min.high_ram.rrzo=7
+persist.vendor.camera3.pipeline.bufnum.min.low_ram.rrzo=6
+persist.vendor.camera3.pipeline.bufnum.base.rrzo=4
+persist.vendor.camera3.pipeline.bufnum.min.high_ram.lcso=7
+persist.vendor.camera3.pipeline.bufnum.min.low_ram.lcso=6
+persist.vendor.camera3.pipeline.bufnum.base.lcso=4
+persist.vendor.camera3.pipeline.bufnum.min.high_ram.rsso=7
+persist.vendor.camera3.pipeline.bufnum.min.low_ram.rsso=6
+persist.vendor.camera3.pipeline.bufnum.base.rsso=5
+persist.vendor.camera3.pipeline.bufnum.min.high_ram.fdyuv=5
+persist.vendor.camera3.pipeline.bufnum.min.low_ram.fdyuv=5
+
+# Display
+persist.log.tag.gralloc4=S
+ro.vendor.mtk_aal_support=0
+ro.vendor.composer_version=2.3
+ro.vendor.display.type=oled
+ro.vendor.colorpick_adjust=true
+ro.vendor.mtk_ovl_bringup=0
+ro.vendor.mtk_aod_support=0
+ro.vendor.mml.mtk_mml_support=0
+ro.vendor.smvr.p2batch.vga=16
+ro.vendor.smvr.p2batch.hd=8
+ro.vendor.smvr.p2batch.fhd=4
+ro.hardware.hwcomposer=mtk_common
+ro.hardware.vulkan=mali
+ro.hardware.egl=meow
+ro.opengles.version=196610
+sys.brightness.disable_gamma_conversion=true
+
+# DRM
+ro.netflix.bsp_rev=MTK6781-34066-1
+
+# Fingerprint
+persist.vendor.fingerprint.type=side
+persist.vendor.fingerprint.sensor_modules=fpc,goodix
+persist.vendor.fingerprint.sensor_location=1080|915|145|local:4627039422300187648
+
+# FUSE passthrough
+persist.sys.fuse.passthrough.enable=true
+
+# Gatekeeper
+ro.hardware.gatekeeper=beanpod
+
+# GNSS
+ro.vendor.mtk_log_hide_gps=1
+
+# IMS
+persist.vendor.mtk_dynamic_ims_switch=1
+persist.vendor.mtk_wfc_support=1
+persist.vendor.mtk.volte.enable=1
+persist.vendor.viwifi_support=1
+ro.vendor.md_auto_setup_ims=1
+ro.vendor.mtk_data_config=1
+
+# Kernel module loading
+ro.vendor.fm.platform=mt6631_6635
+ro.vendor.gps.chrdev=gps_drv
+ro.vendor.wlan.chrdev=wmt_chrdev_wifi
+ro.vendor.wlan.gen=gen4m
+ro.vendor.bt.platform=connac1x
+
+# Keymaster
+ro.crypto.volume.filenames_mode=aes-256-cts
+ro.hardware.kmsetkey=beanpod
+
+# LMK
+ro.config.low_ram=false
+ro.lmk.critical_upgrade=true
+ro.lmk.upgrade_pressure=40
+ro.lmk.downgrade_pressure=60
+ro.lmk.kill_heaviest_task=false
+
+# Media
+debug.mediatek.disp_decompress=1
+debug.stagefright.c2inputsurface=-1
+persist.vendor.md_c2k_cap_dep_check=0
+media.c2.dmabuf.padding=512
+media.stagefright.thumbnail.prefer_hw_codecs=true
+ro.vendor.jpeg_decode_sw_opt=1
+ro.vendor.mtk_config_max_dram_size=0x800000000
+ro.vendor.mtk_sec_video_path_support=1
+ro.vendor.mtk_video_hevc_enc_support=1
+vendor.media.omx=0
+vendor.mtk.vdec.waitkeyframeforplay=9
+
+# Neural Networks
+ro.vendor.mtk_nn_support=1
+ro.vendor.mtk_nn_baseline_support=1
+ro.vendor.mtk_nn.option=D,E,F,Z
+ro.vendor.mtk_nn_quant_preferred=1
+
+# OEM Unlock
+ro.oem_unlock_supported=1
+
+# Platform
+ro.vendor.mediatek.platform=MT6781
+ro.soc.model=MT6781
+ro.soc.manufacturer=Mediatek
+
+# Power
+vendor.powerhal.interaction.offset=0
+vendor.powerhal.interaction.min=50
+vendor.powerhal.interaction.max=150
+
+# Radio
+persist.radio.multisim.config=dsds
+persist.vendor.md_c2k_cap_dep_check=0
+persist.vendor.radio.smart.data.switch=1
+persist.vendor.radio.msimmode=dsds
+persist.vendor.mims_support=2
+persist.vendor.radio.fd.counter=150
+persist.vendor.radio.fd.off.counter=50
+persist.vendor.radio.fd.r8.counter=150
+persist.vendor.radio.fd.off.r8.counter=50
+persist.vendor.radio.flashless.fsm=0
+persist.vendor.radio.flashless.fsm_cst=0
+persist.vendor.radio.flashless.fsm_rw=0
+persist.vendor.radio.mtk_ps2_rat=L/W/G
+persist.vendor.radio.mtk_ps3_rat=G
+persist.vendor.mtk_sim_switch_policy=2
+persist.vendor.radio.mtk_dsbp_support=2
+ro.telephony.default_network=10,10,10,10
+ro.telephony.iwlan_operation_mode=AP-assisted
+ro.vendor.md_prop_ver=1
+ro.vendor.md_auto_setup_ims=1
+ro.vendor.mtk_c2k_support=1
+ro.vendor.mtk_c2k_lte_mode=2
+ro.vendor.mtk_eccci_c2k=1
+ro.vendor.mtk_embms_support=1
+ro.vendor.mtk_external_sim_support=1
+ro.vendor.mtk_external_sim_only_slots=0
+ro.vendor.mtk_fd_support=1
+ro.vendor.mtk_lte_support=1
+ro.vendor.mtk_md_world_mode_support=1
+ro.vendor.mtk_sim_hot_swap_common_slot=1
+ro.vendor.mtk_sim_card_onoff=3
+ro.vendor.mtk_protocol1_rat_config=Lf/Lt/W/G
+ro.vendor.mtk_ps1_rat=Lf/Lt/W/G
+ro.vendor.mtk_rild_read_imsi=1
+ro.vendor.mtk_ril_mode=c6m_1rild
+ro.vendor.mtk_world_phone_policy=0
+ro.vendor.radio.max.multisim=dsds
+ro.vendor.num_md_protocol=2
+ro.vendor.sim_me_lock_mode=3
+telephony.active_modems.max_count=2
+telephony.lteOnCdmaDevice=1
+
+# Storage
+external_storage.casefold.enabled=1
+external_storage.projid.enabled=1
+external_storage.sdcardfs.enabled=0
+
+# Surface Flinger
+debug.sf.auto_latch_unsignaled=0
+debug.sf.disable_client_composition_cache=1
+debug.sf.enable_gl_backpressure=1
+debug.sf.enable_hwc_vds=0
+debug.sf.enable_transaction_tracing=false
+debug.sf.frame_rate_multiple_threshold=90
+debug.sf.predict_hwc_composition_strategy=0
+debug.sf.treat_170m_as_sRGB=1
+debug.sf.enable_advanced_sf_phase_offset=1
+debug.sf.high_fps_early_gl_phase_offset_ns=-5000000
+debug.sf.high_fps_early_phase_offset_ns=-5000000
+debug.sf.high_fps_late_app_phase_offset_ns=1000000
+debug.sf.high_fps_late_sf_phase_offset_ns=-5000000
+persist.sys.sf.color_mode=9
+persist.sys.sf.color_saturation=1.1
+persist.sys.sf.native_mode=2
+ro.surface_flinger.max_frame_buffer_acquired_buffers=6
+ro.surface_flinger.enable_frame_rate_override=false
+ro.surface_flinger.has_wide_color_display=true
+ro.surface_flinger.use_content_detection_for_refresh_rate=true
+ro.surface_flinger.use_color_management=true
+ro.surface_flinger.set_idle_timer_ms=4000
+ro.surface_flinger.set_touch_timer_ms=4000
+ro.surface_flinger.set_display_power_timer_ms=1000
+ro.surface_flinger.supports_background_blur=1
+ro.surface_flinger.uclamp.min=150
+ro.surface_flinger.wcg_composition_dataspace=143261696
+
+# Trusted Execution Environment (TEE)
+ro.hardware.wechat=beanpod
+ro.vendor.mtk_microtrust_tee_support=1
+ro.vendor.mtk_tee_gp_support=1
+ro.vendor.mtk_svp_on_mtee_support=1
+
+# Verity
+ro.apk_verity.mode=2
+
+# WiFi
+ro.vendor.wifi.sap.concurrent.iface=ap1
+ro.vendor.wifi.sap.interface=ap0
+wifi.supplicant_scan_interval=120
+
+# Zygote
+zygote.critical_window.minute=10
+
+# ART
+dalvik.vm.dex2oat64.enabled=true
+ro.sys.fw.dex2oat_thread_count=8
+dalvik.vm.boot-dex2oat-threads=8
+dalvik.vm.dex2oat-threads=8
+dalvik.vm.dex2oat-cpu-set=0,1,2,3,4,5,6,7
+dalvik.vm.dex2oat-filter=speed
+dalvik.vm.dex2oat-threads=8
+dalvik.vm.image-dex2oat-cpu-set=0,1,2,3,4,5,6,7
+dalvik.vm.image-dex2oat-filter=speed
+dalvik.vm.image-dex2oat-threads=8
+dalvik.vm.dex2oat-minidebuginfo=false
+dalvik.vm.minidebuginfo=false
