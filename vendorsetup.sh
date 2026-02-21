@@ -4,10 +4,13 @@ if [ ! -d "prebuilts/clang/host/linux-x86/clang-r416183b" ]; then
   rm -rf prebuilts/clang/host/linux-x86/clang-r416183b
   git clone https://github.com/LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b prebuilts/clang/host/linux-x86/clang-r416183b
 fi
+if [ ! -d "hardware/xiaomi" ]; then
+  rm -rf hardware/mediatek
+  git clone https://github.com/raphakkj4/adroid_hardware_xiaomi hardware/xiaomi
+fi
 if [ ! -d "hardware/mediatek" ]; then
   rm -rf hardware/mediatek
-  git clone https://github.com/raphakkj4/adroid_hardware_xiaomi
-fi
+  git clone https://github.com/raphakkj4/android_hardware-mediatek hardware/mediatek
 if [ ! -d "vendor/xiaomi/sea" ]; then
   rm -rf vendor/xiaomi/sea
   git clone https://github.com/raphakkj4/android_vendor_sea vendor/xiaomi/sea
