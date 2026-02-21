@@ -5,7 +5,7 @@ if [ ! -d "prebuilts/clang/host/linux-x86/clang-r416183b" ]; then
   git clone https://github.com/LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b prebuilts/clang/host/linux-x86/clang-r416183b
 fi
 if [ ! -d "hardware/xiaomi" ]; then
-  rm -rf hardware/mediatek
+  rm -rf hardware/xiaomi
   git clone https://github.com/raphakkj4/adroid_hardware_xiaomi hardware/xiaomi
 fi
 if [ ! -d "hardware/mediatek" ]; then
