@@ -11,6 +11,7 @@ fi
 if [ ! -d "hardware/mediatek" ]; then
   rm -rf hardware/mediatek
   git clone https://github.com/raphakkj4/android_hardware-mediatek hardware/mediatek
+fi
 if [ ! -d "vendor/xiaomi/sea" ]; then
   rm -rf vendor/xiaomi/sea
   git clone https://github.com/raphakkj4/android_vendor_sea vendor/xiaomi/sea
