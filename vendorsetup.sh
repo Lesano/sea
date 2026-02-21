@@ -27,6 +27,7 @@ fi
 if [! -d "packages/apps/ViPER4AndroidFX"]; then
   rm -rf packages/apps/ViPER4AndroidFX
   git clone https://github.com/TogoFire/packages_apps_ViPER4AndroidFX packages/apps/ViPER4AndroidFX
+fi
 if [ ! -d "hardware/lineage/interfaces/sensors" ]; then
   rm hardware/lineage/interfaces/sensors
 fi
