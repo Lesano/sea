@@ -10,7 +10,7 @@ git clone https://github.com/raphakkj4/android_hardware-mediatek hardware/mediat
 
 git clone https://github.com/raphakkj4/android_vendor_sea vendor/xiaomi/sea || true
 
-git clone https://github.com/mt6781-devs/android_kernel_xiaomi_mt6781 kernel/xiaomi/mt6781 || true
+git clone https://github.com/raphakkj4/android_kernel_xiaomi_mt6781 kernel/xiaomi/mt6781 || true
 
 git clone https://github.com/raphakkj4/android_vendor_mediatek_ims vendor/mediatek/ims || true
 
